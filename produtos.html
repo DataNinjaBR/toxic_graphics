@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Produtos - Toxic Graphics</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-gold bg-black">
+        <a class="navbar-brand" href="index.html">Toxic Graphics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+            <span id="cart-icon" class="navbar-text">
+                <a href="checkout.html" class="text-decoration-none text-reset">
+                    <i class="fas fa-shopping-cart"></i> (<span id="cart-count">0</span>)
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Produtos</h1>
+        <!-- Aqui seria a listagem dos produtos, igual ao que tem na página inicial -->
+    </div>
+
+    <footer class="py-5 bg-black">
+        <div class="container">
+            <p class="m-0 text-center text-gold">&copy; 2023 Toxic Graphics</p>
+            <p class="m-0 text-center text-gold">
+                <a href="https://discord.gg/seulink" target="_blank" class="text-gold"><i class="fab fa-discord"></i> Discord</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="carrinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detalhes do Produto 1 - Toxic Graphics</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-gold bg-black">
+        <a class="navbar-brand" href="#">Toxic Graphics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="loja.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+            <span id="cart-icon" class="navbar-text">
+                <i class="fas fa-shopping-cart"></i> (<span id="cart-count">0</span>)
+            </span>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="https://media.discordapp.net/attachments/1115018775746592768/1116421663488233513/IMG-20230604-WA0020.jpg?width=1215&height=662" alt="Imagem do Produto 1" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <h1>Banner</h1>
+                <h2>R$9,00</h2>
+                <p>Descrição detalhada do Banner:</p>
+<p>O Banner é um produto inovador e altamente eficaz para a exibição visual de mensagens em eventos, feiras, lojas e espaços comerciais. Com seu design elegante e recursos avançados, ele se destaca como uma ferramenta poderosa para promover marcas, produtos e serviços.</p>
+<p>Construído com materiais de alta qualidade, o Banner oferece durabilidade e resistência, tornando-o adequado para uso tanto em ambientes internos quanto externos. Sua estrutura leve e portátil permite fácil transporte e montagem rápida em diferentes locais, proporcionando flexibilidade e conveniência.</p>
+<p>Com uma ampla área de impressão, o Banner permite que você exiba informações, imagens e logotipos de forma impactante. A impressão de alta resolução garante uma reprodução nítida e vibrante dos elementos visuais, capturando a atenção do público-alvo de maneira efetiva.</p>
+<p>Além disso, o Banner pode ser personalizado para atender às suas necessidades específicas. Você pode optar por adicionar recursos extras, como iluminação embutida para uma visibilidade ainda maior, ou elementos interativos, como códigos QR ou telas sensíveis ao toque, para envolver os espectadores de forma interativa.</p>
+<p>Seja para promover ofertas especiais, divulgar eventos, destacar lançamentos de produtos ou transmitir informações importantes, o Banner oferece uma solução visual poderosa e atrativa. Com sua capacidade de transmitir mensagens de forma eficaz, o Banner se torna uma escolha indispensável para impulsionar sua presença e alcançar o sucesso em suas iniciativas de marketing e publicidade.</p>
+                <button class="btn btn-primary" onclick="adicionarAoCarrinho('Produto 1', 100)">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 bg-black">
+        <div class="container">
+            <p class="m-0 text-center text-gold">&copy; 2023 Toxic Graphics</p>
+            <p class="m-0 text-center text-gold">
+                <a href="https://discord.gg/seulink" target="_blank" class="text-gold"><i class="fab fa-discord"></i> Discord</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="carrinho.js"></script>
+</body>
+</html>
